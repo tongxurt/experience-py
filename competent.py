@@ -17,24 +17,7 @@ import sys
 import time
 
 hosts = {
-    # 'yq01-icode-yq07.epc.baidu.com': ['gerrit2', '*svn123'],
-    'cq01-icode-online08.cq01': ['gerrit2', '*svn123'],
-    'cq01-icode-online07.cq01': ['gerrit2', '*svn123'],
-    'cq01-icode-online06.cq01': ['gerrit2', '*svn123'],
-    'cp01-git04-b01-slave.epc': ['gerrit2', '*svn123'],
-    'cp01-git03-b01-slave.epc': ['gerrit2', '*svn123'],
-    'cp01-git02-b01-slave.epc': ['gerrit2', '*svn123'],
-    'cp01-git01-b01-slave.epc': ['gerrit2', '*svn123']
-
-    ## online
-    # 'cp01-git01-b01.cp01': ['gerrit2', '*svn123'],
-    # 'bjyz-git02-b01.bjyz': ['gerrit2', '*svn123'],
-    # 'cp01-git03-b01.cp01': ['gerrit2', '*svn123'],
-    # 'cp01-git04-b01.epc': ['gerrit2', '*svn123'],
-    # 'cp01-git05-b01.epc': ['gerrit2', '*svn123'],
-    # 'cp01-git06-b01.epc': ['gerrit2', '*svn123'],
-    # 'cp01-git07-b01.epc': ['gerrit2', '*svn123']
-
+	"host":["username":"passwd"],
 }
 
 config = {
