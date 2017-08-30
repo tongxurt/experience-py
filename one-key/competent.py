@@ -17,7 +17,7 @@ import sys
 import time
 
 hosts = {
-	"host":["username":"passwd"],
+    "host": ["username", "passwd"],
 }
 
 config = {
