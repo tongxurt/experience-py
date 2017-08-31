@@ -15,8 +15,8 @@ def parse_log(line):
 
 def main(file_to_monitor):
     """
-    监控日志文件
-    :param file_to_monitor:
+    监控文件
+    :param file_to_monitor:需要监控的文件全路径
     :return:
     """
     monitor = Monitor(file_to_monitor)
